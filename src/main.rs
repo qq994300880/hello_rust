@@ -1,7 +1,7 @@
 // Rust学习程序
 mod basics;
 
-fn main() {
+fn main() -> (){
     println!("=== Rust学习程序 ===");
     println!("请修改main.rs文件以学习不同的知识点");
     
@@ -11,9 +11,10 @@ fn main() {
     // basics::control_flow::run();
     // basics::ownership::run();
     // basics::structs::run();
+    hello_world()
 }
 
-fn hello_world(){
+fn hello_world() -> (){
     let english ="Hello";
     let chinese="你好";
     let japanese="こんにちは";
